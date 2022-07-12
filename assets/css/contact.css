@@ -1,0 +1,25 @@
+.root .shape.shape1,
+.root .shape.shape2{
+    display: none;
+}
+
+.main-contact .map_container iframe{
+    width: 100%;
+}
+
+
+.main-contact .contact-us .contact-us_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 45px;
+    gap: 2rem;
+}
+.main-contact .contact-us .contact-us_container svg{
+    width: 80px;
+}
+
+@media screen and (max-width:900px) {
+    .main-contact .contact-us .contact-us_container{
+        grid-template-columns: 1fr;
+    }
+}

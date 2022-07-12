@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeoEach (Phan Văn Hoàn)</title>
+
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+
+    <!-- GOOGLE FONT (RUBIK) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
+
+    <!-- GOOGLE FONT () -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&family=Montserrat:wght@300;400;500;600;700;800;900&family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
+
+    <!-- ========================== SWIPER CSS ==========================-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    
+    <!-- ================== ICON ================== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+    <!-- IONICONS  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</head>
+<body>
+    <div class="root">
+        <div class="shape shape1">
+            <img src="./assets/image/shape.png" alt="">
+        </div>
+        <div class="shape shape2">
+            <img src="./assets/image/shape.png" alt="">
+        </div>
+
+
+        <header class="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav_logo">
+                    <img src="./assets/image/Logo.svg" alt="">
+                </a>
+    
+                <div class="nav_menu" id="menu-bar">
+
+                    <div class="btn-close-menu" id="close-menu-bar"> 
+                        <i class="uil uil-times"></i>
+                    </div>
+
+                    <ul class="nav_list">
+                        <li class="nav_item active">
+                            <a href="index.html">Home</a>
+                        </li>
+    
+                        <li class="nav_item">
+                            <a href="#elements.html">Elements <ion-icon name="chevron-down-outline"></ion-icon></a>
+                            
+                            <!-- sub menu  -->
+                            <ul class="nav_list2">
+                                <li class="nav_item">
+                                    <a href="#">Columns</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a href="#">Counter</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a href="#">Gallery</a>
+                                </li>
+                            </ul>
+                        </li>
+    
+                        <li class="nav_item">
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+    
+                        <li class="nav_item">
+                            <a href="shop.html">Shop <ion-icon name="chevron-down-outline"></ion-icon> </a>
+                            
+                            <!-- sub Menu  -->
+                            <ul class="nav_list2">
+                                <li class="nav_item">
+                                    <a href="#">Product Type <ion-icon name="chevron-forward-outline"></ion-icon></a>
+                                    
+                                    <ul class="nav_list2 nav_list3">
+                                        <li class="nav_item">
+                                            <a href="#">Group Product</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">Simple Product</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">External/Affilate Product</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">Downloadable Product</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">Variable Product</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">In-stock Product</a>
+                                        </li>
+                                    </ul>
+                                </li>
+    
+                                <li class="nav_item">
+                                    <a href="#">Shop Pages <ion-icon name="chevron-forward-outline"></ion-icon></a>
+    
+                                    <ul class="nav_list2 nav_list3">
+                                        <li class="nav_item">
+                                            <a href="#">Card</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">Checkout</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">My Account</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">Downloads</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                
+                <div class="search-bar">
+                    <div class="btn-open-menu" id="open-menu-bar"><i class="uil uil-bars"></i></div>
+
+                    <div class="search-icon" id="open-search">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </div>
+    
+                    <button class="button button-xl">
+                        Get a Quote
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <!-- ======================== END OF HEADER ======================== -->
+
+        <main>
+            <section class="container banner">
+                <div class="banner_container  swiper ">
+                    <div class="swiper-wrapper">
+                        <div class="banner_item swiper-slide">
+                            <div class="text">
+                                <h4 class="green">We Are Best SEO</h4>
+                                <h1 class="banner_title">Affordable Search Engine Services</h1>
+                                <small>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration form, by injected</small>
+        
+                                <a href="#" class="button">Read More</a>
+                            </div>
+            
+                            <div class="image">
+                                <img src="./assets/image/header.png" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="banner_item swiper-slide">
+                            <div class="text">
+                                <h4 class="green">We Are Best SEO</h4>
+                                <h1 class="banner_title">We Do Hight Quality SEO Services</h1>
+                                <small>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration form, by injected</small>
+        
+                                <a href="#" class="button">Read More</a>
+                            </div>
+            
+                            <div class="image">
+                                <img src="./assets/image/header2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </section>
+            <!-- ============= END OF BANNER ============= -->
+
+            <section class="section provide">
+                <h3 class="green text-center">What We Provide</h3>
+                <h2 class="title text-center">Expect Great Things From Your<br>SEO Agency</h2>
+
+                <div class="container provide_container">
+                    <div class="card-item-section">
+                        <figure>
+                            <img src="./assets/image/provide1.png" alt="">
+                        </figure>
+
+                        <div class="text-content">
+                            <h3 class="">Web Development Solutions</h3>
+                            <p class="">
+                                Contrary to popular belief, Lorem Ipsum not simply random text. It has in a piece classical Latin literature.
+                            </p>
+                            <a href="#" class=" ">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="card-item-section">
+                        <figure>
+                            <img src="./assets/image/provide2.png" alt="">
+                        </figure>
+
+                        <div class="text-content">
+                            <h3 class="">Web Development Solutions</h3>
+                            <p class="">
+                                Contrary to popular belief, Lorem Ipsum not simply random text. It has in a piece classical Latin literature.
+                            </p>
+                            <a href="#" class="">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="card-item-section">
+                        <figure>
+                            <img src="./assets/image/provide3.png" alt="">
+                        </figure>
+
+                        <div class="text-content">
+                            <h3 class="">Web Development Solutions</h3>
+                            <p class="">
+                                Contrary to popular belief, Lorem Ipsum not simply random text. It has in a piece classical Latin literature.
+                            </p>
+                            <a href="#" class=" ">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ================= END OF PROVIDE ================= -->
+
+
+            <section class="section our-about">
+                <div class="container our-about_container">
+                    <div class="our-about_img">
+                        <figure>
+                            <img src="./assets/image/About-Us.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="our-about_text">
+                        <h3 class="green"> Our About</h3>
+                        <h2 class="title">Provide Awesome Service<br>
+                            With Our Tools</h2>
+                        <p>
+                            There are many variations passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour, or
+                            randomised words which don’t look even slightly believable.
+                        </p>
+                        <a href="#" class="button button-xl mt-36">More About</a>
+                    </div>
+                    
+
+                </div>
+            </section>
+            <!-- =========== END OF OUR ABOUT =========== -->
+        
+            
+            <section class="section service">
+                <h3 class="green text-center">Our Service</h3>
+                <h2 class="title text-center">Introduce Best SEO Services</h2>
+                
+                <div class="container service_container">
+                    <div class="card-item-section">
+                        <figure class="card-image">
+                            <img src="./assets/image/service-1.png" alt="">
+                        </figure>
+
+                        <div class="text-content">
+                            <h3>All Sizes Business</h3>
+                            <p>Contrary to popular belief, Lorem Ipsum not some simply random text.</p>
+
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="card-item-section">
+                        <figure class="card-image">
+                            <img src="./assets/image/service-2.png" alt="">
+                        </figure>
+
+                        <div class="text-content">
+                            <h3>Awesome Results</h3>
+                            <p>Contrary to popular belief, Lorem Ipsum not some simply random text.</p>
+
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="card-item-section">
+                        <figure class="card-image">
+                            <img src="./assets/image/service-3.png" alt="">
+                        </figure>
+
+                        <div class="text-content">
+                            <h3>Significant ROI</h3>
+                            <p>Contrary to popular belief, Lorem Ipsum not some simply random text.</p>
+
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ============ END OF SERVICE ============ -->
+
+
+            <section class="section experience">
+                <div class="container experience_container">
+                    <div class="text">
+                        <h3 class="green">Experience</h3>
+                        <h2 class="title">Outstanding Digital Experience</h2>
+                        <p>There are many variations passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form.</p>
+
+                        <div class="skills">
+                            <div class="skill-item " style="--width-skill:90%">
+                                <h3>Keyword Research</h3>
+                                <div class="duration">
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" style="--width-skill:70%">
+                                <h3>SEO Analysis</h3>
+                                <div class="duration">
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" style="--width-skill:83%">
+                                <h3>SEO Audit</h3>
+                                <div class="duration">
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="skill-item"style="--width-skill:95%">
+                                <h3>Optimization</h3>
+                                <div class="duration">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="button button-xl">Discover More</a>
+                    </div>
+
+                    <div class="image">
+                        <figure>
+                            <img src="./assets/image/Experience.png" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <!-- ============ END OF EXPERIENCE ============ -->
+
+
+            <section class="section customers">
+                <div class="customers_container">
+                    <div class="container">
+                        <h3 class="green text-center">Clients</h3>
+                        <h2 class="title text-center">Our Customers</h2>
+    
+                        <div class="brand-wrap">
+                            <figure class="brand-item">
+                                <img src="./assets/image/brand-1.png" alt="">
+                            </figure>
+                            <figure class="brand-item">
+                                <img src="./assets/image/brand-2.png" alt="">
+                            </figure>
+                            <figure class="brand-item">
+                                <img src="./assets/image/brand-3.png" alt="">
+                            </figure>
+                            <figure class="brand-item">
+                                <img src="./assets/image/brand-4.png" alt="">
+                            </figure>
+                            <figure class="brand-item">
+                                <img src="./assets/image/brand-5.png" alt="">
+                            </figure>
+                            <figure class="brand-item">
+                                <img src="./assets/image/brand-6.png" alt="">
+                            </figure>
+                            <figure class="brand-item">
+                                <img src="./assets/image/brand-7.png" alt="">
+                            </figure>
+                            <figure class="brand-item">
+                                <img src="./assets/image/brand-8.png" alt="">
+                            </figure>
+                            <figure class="brand-item">
+                                <img src="./assets/image/brand-9.png" alt="">
+                            </figure>
+                            <figure class="brand-item">
+                                <img src="./assets/image/brand-10.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <!-- ============ END OF CUSTOMERS ============ -->
+            
+
+
+
+            <section class="section projects">
+                <h3 class="green text-center">Recent Projects</h3>
+                <h2 class="text-center">Our Latest Case Studies</h2>
+
+                <div class="container projects_container">
+                    <div class="project card-item-section2">
+                        
+                        <div class="card-image">
+                            <figure class="">
+                                    <img src="./assets/image/Projects-01.jpg" alt="">
+                            </figure>
+                        </div>
+
+                        <div class="text-content">
+                            <h3 class="text-center">Content Marketing</h3>
+                            <p class="text-center">
+                                Lorem ipsum dolor amet, consectetur To magna aliqua. enimminim veniam, nostr aboris nisi ut aliquip.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="project card-item-section2">
+                        <div class="card-image">
+                            <figure class="">
+                                <img src="./assets/image/Projects-02.jpg" alt="">
+                            </figure>
+                        </div>
+
+                        <div class="text-content">
+                            <h3 class="text-center">Social Media Marketing</h3>
+                            <p class="text-center">
+                                Lorem ipsum dolor amet, consectetur To magna aliqua. enimminim veniam, nostr aboris nisi ut aliquip.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="project card-item-section2">
+                        <div class="card-image">
+                            <figure class="">
+                                <img src="./assets/image/Projects-03.jpg" alt="">
+                            </figure>
+                        </div>
+
+                        <div class="text-content">
+                            <h3 class="text-center">Mobile Marketing</h3>
+                            <p class="text-center">
+                                Lorem ipsum dolor amet, consectetur To magna aliqua. enimminim veniam, nostr aboris nisi ut aliquip.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ============= END OF PROJECTS ============= -->
+
+
+            <section class="section testimonials">
+                <div class="container testimonials_container">
+                    <div class="testimonials_image">
+                        <img src="./assets/image/Testimonials.png" alt="">
+                    </div>
+
+                    <div class="testimonials_content">
+                        <h3 class="green">Testimonials</h3>
+                        <h2 class="title">Clients Talk About Us</h2>
+                        <div class="testimonials_icon">
+                            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 851"><path d="M188,0C84.2,0,0,86.6,0,193.4S84.2,386.8,188,386.8c187.9,0,62.7,373.9-188,373.9V851C447.4,851,622.7,0,188,0ZM729.6,0C625.9,0,541.7,86.6,541.7,193.4s84.2,193.4,187.9,193.4c188,0,62.7,373.9-187.9,373.9V851C988.9,851,1164.2,0,729.6,0Z"></path></svg>
+                        </div>
+
+                        <div class="comment_wrap">
+                            <div class="comment">
+                                                                  
+                                <div class="comment_item">
+                                    <p class="text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do You tempor incididunt ut labore et dolore magna aliqua. Ut enim app mi quis nostrud exercitation ullamco laboris.
+                                    </p>
+                                    <h3 class="author">Jimmy Roy</h3>
+                                    <p class="position">founder</p>
+                                </div>
+                                
+                                <div class="comment_item">
+                                    <p class="text">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugiat omnis iste distinctio possimus debitis nemo, enim necessitatibus aliquam similique?
+                                    </p>
+                                    <h3 class="author">John Doe</h3>
+                                    <p class="position">Designer</p>
+                                </div>
+                            </div>
+                         </div>
+
+                        <div class="controls_icon"> 
+                            <div class="testimonials_prev"><ion-icon name="chevron-back-outline"></ion-icon></div>
+                            <div class="testimonials_next"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ============= END OF TESTIMONIALS ============= -->
+
+
+
+            <section class="section pricing">
+                <h3 class="green text-center">Pricing</h3>
+                <h2 class="title text-center">Choose Your Pricing plan</h2>
+
+                <div class="container pricing_container">
+                    <div class="card-item-section">
+                        <figure>
+                            <img src="./assets/image/Pricing1.png" alt="">
+                        </figure>
+
+                        <h3 class="name-title">Entrepreneur</h3>
+                        <div class="text-detail">
+                            <p>25 Social Media reviews</p>
+                            <p>25 Analytics Campaign</p>
+                            <p>800 Change Keywords</p>
+                            <p>24/7 Support</p>
+                        </div>
+                        
+                        <h1 class="price">$49/Month</h1>
+
+                        <a href="#" class="button button-xl">Buy Now</a>
+                    </div>
+
+                    <div class="card-item-section">
+                        <figure>
+                            <img src="./assets/image/Pricing2.png" alt="">
+                        </figure>
+
+                        <h3 class="name-title">Growing Business</h3>
+                        <div class="text-detail">
+                            <p>25 Social Media reviews</p>
+                            <p>25 Analytics Campaign</p>
+                            <p>800 Change Keywords</p>
+                            <p>24/7 Support</p>
+                        </div>
+                        
+                        <h1 class="price">$59/Month</h1>
+
+                        <a href="#" class="button button-xl">Buy Now</a>
+                    </div>
+
+                    <div class="card-item-section">
+                        <figure>
+                            <img src="./assets/image/Pricing3.png" alt="">
+                        </figure>
+
+                        <h3 class="name-title">Pro Business</h3>
+                        <div class="text-detail">
+                            <p>25 Social Media reviews</p>
+                            <p>25 Analytics Campaign</p>
+                            <p>800 Change Keywords</p>
+                            <p>24/7 Support</p>
+                        </div>
+                        
+                        <h1 class="price">$89/Month</h1>
+
+                        <a href="#" class="button button-xl">Buy Now</a>
+                    </div>
+                </div> 
+            </section>
+            <!-- ============== END OF PRICING ============== -->
+
+
+            <section class="section faq">
+                <div class="container faq_container">
+                    <div class="faq-text">
+                        <h3 class="green">FAQ</h3>
+                        <h2 class="title">Read Most Frequent Questions</h2>
+
+                        <div class="faq_list" >
+
+                            <div class="faq_item">
+                                <div class="faq_title">
+                                    <h3>Best Practices For Keyword Density</h3>
+                                    <div class="faq_icon">
+                                        <i class="uil uil-plus"></i>
+                                    </div>
+                                </div>
+                                <p class="faq_detail" id="faq_detail">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quis. Cum possimus aut repudiandae tempora laborum doloremque dolorem fuga itaque.
+                                </p>
+                            </div>
+
+                            <div class="faq_item">
+                                <div class="faq_title">
+                                    <h3>Best SEO Practices For Page Layouts</h3>
+                                    <div class="faq_icon">
+                                        <i class="uil uil-plus"></i>
+                                    </div>
+                                </div>
+                                <p class="faq_detail" id="faq_detail">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quis. Cum possimus aut repudiandae tempora laborum doloremque dolorem fuga itaque.
+                                </p>
+                            </div>
+
+                            <div class="faq_item">
+                                <div class="faq_title">
+                                    <h3>What Is Off Page SEO Link Building?</h3>
+                                    <div class="faq_icon">
+                                        <i class="uil uil-plus"></i>
+                                    </div>
+                                </div>
+                                <p class="faq_detail" id="faq_detail">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quis. Cum possimus aut repudiandae tempora laborum doloremque dolorem fuga itaque.
+                                </p>
+                            </div>
+
+                            <div class="faq_item">
+                                <div class="faq_title">
+                                    <h3>Social Media's Role In SEO</h3>
+                                    <div class="faq_icon">
+                                        <i class="uil uil-plus"></i>
+                                    </div>
+                                </div>
+                                <p class="faq_detail" id="faq_detail">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quis. Cum possimus aut repudiandae tempora laborum doloremque dolorem fuga itaque.
+                                </p>
+                            </div>
+
+                            <div class="faq_item">
+                                <div class="faq_title">
+                                    <h3>Accordion Title</h3>
+                                    <div class="faq_icon">
+                                        <i class="uil uil-plus"></i>
+                                    </div>
+                                </div>
+                                <p class="faq_detail" id="faq_detail">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quis. Cum possimus aut repudiandae tempora laborum doloremque dolorem fuga itaque.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="faq_image">
+                        <img src="./assets/image/FAQ-1.png" alt="">
+                    </div>
+                </div>
+
+            </section>
+            <!-- ============== END OF FAQ ============== -->
+        
+        
+
+            <section class="section container blog">
+                <h3 class="green text-center">Our Blog</h3>
+                <h2 class="title text-center">Our Latest Media</h2>
+
+                <div class="blog_container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="card-item-section2 swiper-slide">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./assets/image/blog1.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="text-content">
+                                <h3>Best Things About Search Engine Optimization</h3>
+                                <h4 class="green time">
+                                    <i class="uil uil-clock-eight"></i>
+                                    <p>July 02,2022</p>
+                                </h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error repudiandae blanditiis odit dolores asperiores vero alias itaque voluptatibus debitis?</p>
+                            </div>
+                        </div>
+
+                        <div class="card-item-section2 swiper-slide">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./assets/image/blog2.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="text-content">
+                                <h3>Career Paths to Explore in the Next Decade</h3>
+                                <h4 class="green time">
+                                    <i class="uil uil-clock-eight"></i>
+                                    <p>June 01,2022</p>
+                                </h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error repudiandae blanditiis odit dolores asperiores vero alias itaque voluptatibus debitis?</p>
+                            </div>
+                        </div>
+
+                        <div class="card-item-section2 swiper-slide">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./assets/image/blog3.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="text-content">
+                                <h3>Best Tracker And Search Engine Optimization one</h3>
+                                <h4 class="green time">
+                                    <i class="uil uil-clock-eight"></i>
+                                    <p>May 05,2022</p>
+                                </h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error repudiandae blanditiis odit dolores asperiores vero alias itaque voluptatibus debitis?</p>
+                            </div>
+                        </div>
+
+                        <div class="card-item-section2 swiper-slide">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./assets/image/blog4.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="text-content">
+                                <h3>Standard the Chunk of Ipsum communication</h3>
+                                <h4 class="green time">
+                                    <i class="uil uil-clock-eight"></i>
+                                    <p>March 03,2022</p>
+                                </h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error repudiandae blanditiis odit dolores asperiores vero alias itaque voluptatibus debitis?</p>
+                            </div>
+                        </div>
+
+                        <div class="card-item-section2 swiper-slide">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./assets/image/blog5.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="text-content">
+                                <h3>Standard the Chunk of Ispum communication</h3>
+                                <h4 class="green time">
+                                    <i class="uil uil-clock-eight"></i>
+                                    <p>July 03,2022</p>
+                                </h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error repudiandae blanditiis odit dolores asperiores vero alias itaque voluptatibus debitis?</p>
+                            </div>
+                        </div>
+
+                        <div class="card-item-section2 swiper-slide">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./assets/image/blog6.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="text-content">
+                                <h3>Earphones Under Your Budget critical thinking</h3>
+                                <h4 class="green time">
+                                    <i class="uil uil-clock-eight"></i>
+                                    <p>February 05,2022</p>
+                                </h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error repudiandae blanditiis odit dolores asperiores vero alias itaque voluptatibus debitis?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </section>
+            <!-- ============= END OF BLOG ============= -->
+        
+        
+
+
+            <section class="section analysis">
+                <div class="container analysis_container">
+                    <div class="analysis_image">
+                        <figure>
+                            <img src="./assets/image/Analysis-1.png" alt="">
+                        </figure>
+                    </div>
+
+                    <div class="analysis_form-wrap">
+                        <div class="analysis_form">
+                            <div class="title_form">
+                                <h3 class="green">Analysis</h3>
+                                <h2 class="title">Get Free SEO Analysis?</h2>
+                            </div>
+
+                            <form action="#" class="form_container">
+                                <p>
+                                    <input type="text" name="" id="" placeholder="Your Name">
+                                </p>
+                                <p>
+                                    <input type="email" name="" id="" placeholder="E-Mail*" required>
+                                </p>
+                                <p>
+                                    <input type="tel" name="" id="" placeholder="Phone Number">
+                                </p>
+                                <p>
+                                    <input type="text" name="" id="" placeholder="Website">
+                                </p>
+
+                                <input type="submit" value="Submit Now" class="button button-xl">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =============== END OF ANALYSIS =============== -->
+        </main>
+
+
+        <footer class="footer-wrap">
+            <div class="shape shape3">
+                <img src="./assets/image/shape.png" alt="">
+            </div>
+            <div class="shape shape4">
+                <img src="./assets/image/shape.png" alt="">
+            </div>
+
+            <div class="container footer_container">
+                <div class="footer_top">
+                    <div class="footer_logo">
+                        <img src="./assets/image/Logo.svg" alt="">
+                    </div>
+
+                    <div class="footer_newsletter">
+                        <h3>Newsletter SignUp!</h3>
+                        <form action="#" class="form">
+                            <input type="email" name="" id="" required>
+                            <input type="submit" value="Subscribe" class="button button-xl">
+                        </form>
+                    </div>                
+                </div>
+
+                <div class="footer_bottom">
+                    <div class="footer_item footer_item1">
+                        <h3>About Us</h3>
+                        <p>Contrary to popular belief, Lorem
+                            Ipsum is not simply random text. It has roots in a piece of classical
+                            Latin literature from 45 BC.</p>
+                        
+                        <ul class="footer_socials">
+                            <li>
+                                <a href="https://www.facebook.com/"><i class="uil uil-facebook-f"></i></a>
+                            </li> 
+                            <li>
+                                <a href="https://twitter.com/home?lang=vi"><i class="uil uil-twitter"></i></a>
+                            </li> 
+                            <li>
+                            <a href="https://www.instagram.com/"><i class="uil uil-instagram"></i></a>
+                            </li> 
+                            <li>
+                                <a href="https://www.linkedin.com/"><i class="uil uil-linkedin-alt"></i></a>
+                            </li> 
+                        </ul>
+                    </div>
+
+                    <div class="footer_item footer_item2">
+                        <h3>Information</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Search Optimization</a>
+                            </li>
+                            <li>
+                                <a href="#">Click Advertising</a>
+                            </li>
+                            <li>
+                                <a href="#">Link Building</a>
+                            </li>
+                            <li>
+                                <a href="#">On-Site SEO</a>
+                            </li>
+                            <li>
+                            <li>
+                                <a href="#">Detailed Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer_item footer_item2">
+                        <h3>Services</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Social Marketing</a>
+                            </li>
+                            <li>
+                                <a href="#">SEO Optimization</a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">Content Marketing</a>
+                            </li>
+                            <li>
+                                <a href="#">Social Marketing</a>
+                            </li>
+                            <li>
+                                <a href="#">Web Analytics</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer_item footer_item4">
+                        <h3>Office Address</h3>
+                        <ul>
+                            <li>
+                                <i class="uil uil-map-marker"></i>
+                                <p>09 Street, Modern Hall, Saint</p>
+                            </li>
+                            <li>
+                                <i class="uil uil-phone-alt"></i>
+                                <p>01 952 952 9000</p>
+                            </li>
+                            <li>
+                                <i class="uil uil-envelope-alt"></i>
+                                <p>info@gmail.com</p>
+
+                            </li>
+                            <li>
+                                <i class="uil uil-missed-call"></i>
+                                <p>01 952 952 9000</p>
+                            </li>
+                           
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="copy_right">
+                    <p>© 2022 All Rights Reserved. Developed By TemplateMela</p>
+                </div>
+            </div>
+        </footer>
+        <!-- ============== END OF FOOTER ============== -->
+
+        
+        <!--========================== SCROLL UP ==========================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up"></i>
+        </a>
+
+
+
+        <div class="modal-search-container" id="modal-search">
+            <div class="search-overlay" id="overlay-modal-search">
+                <div class="close-modal" id="close-modal-search">
+                    <i class="uil uil-times"></i>
+                </div>
+
+                <div class="modal-search">
+                    <input type="search" placeholder="Search">
+                    <span class="btn-search-icon">
+                        <i class="uil uil-search"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <!-- ========================== SWIPER JS ==========================-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    
+    <!-- ========================== MAIN JS ==========================-->
+    <script src="./assets/js/main.js"></script>
+   
+    
+</body>
+</html>

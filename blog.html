@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog(Phan Văn Hoàn)</title>
+
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/blog.css">
+
+
+
+    <!-- GOOGLE FONT (RUBIK) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
+
+    <!-- GOOGLE FONT () -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&family=Montserrat:wght@300;400;500;600;700;800;900&family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
+
+    <!-- ========================== SWIPER CSS ==========================-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    
+    <!-- ================== ICON ================== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+    <!-- IONICONS  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</head>
+<body>
+    <div class="root">
+        <div class="shape shape1">
+            <img src="./assets/image/shape.png" alt="">
+        </div>
+        <div class="shape shape2">
+            <img src="./assets/image/shape.png" alt="">
+        </div>
+
+
+        <header class="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav_logo">
+                    <img src="./assets/image/Logo.svg" alt="">
+                </a>
+    
+                <div class="nav_menu" id="menu-bar">
+
+                    <div class="btn-close-menu" id="close-menu-bar"> 
+                        <i class="uil uil-times"></i>
+                    </div>
+
+                    <ul class="nav_list">
+                        <li class="nav_item active">
+                            <a href="index.html">Home</a>
+                        </li>
+    
+                        <li class="nav_item">
+                            <a href="#elements.html">Elements <ion-icon name="chevron-down-outline"></ion-icon></a>
+    
+                            <ul class="nav_list2">
+                                <li class="nav_item">
+                                    <a href="#">Columns</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a href="#">Counter</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a href="#">Gallery</a>
+                                </li>
+                            </ul>
+                        </li>
+    
+                        <li class="nav_item">
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+    
+                        <li class="nav_item">
+                            <a href="shop.html">Shop <ion-icon name="chevron-down-outline"></ion-icon> </a>
+    
+                            <ul class="nav_list2">
+                                <li class="nav_item">
+                                    <a href="#">Product Type <ion-icon name="chevron-forward-outline"></ion-icon></a>
+                                    
+                                    <ul class="nav_list2 nav_list3">
+                                        <li class="nav_item">
+                                            <a href="#">Group Product</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">Simple Product</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">External/Affilate Product</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">Downloadable Product</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">Variable Product</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">In-stock Product</a>
+                                        </li>
+                                    </ul>
+                                </li>
+    
+                                <li class="nav_item">
+                                    <a href="#">Shop Pages <ion-icon name="chevron-forward-outline"></ion-icon></a>
+    
+                                    <ul class="nav_list2 nav_list3">
+                                        <li class="nav_item">
+                                            <a href="#">Card</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">Checkout</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">My Account</a>
+                                        </li>
+                                        <li class="nav_item">
+                                            <a href="#">Downloads</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                
+                <div class="search-bar">
+                    <div class="btn-open-menu" id="open-menu-bar"><i class="uil uil-bars"></i></div>
+
+                    <div class="search-icon" id="open-search">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </div>
+    
+                    <button class="button button-xl">
+                        Get a Quote
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <!-- ======================== END OF HEADER ======================== -->
+
+        <!-- ============ PATH (ĐƯỜNG DẪN ) ============ -->
+        <div class="div path-section">
+            <h2 class="text-center">Blog</h2>
+            <div class="path">
+                <a href="index.html" class="home-page">Home</a>
+                <span>/</span>
+                <span>Blog</span> 
+            </div>
+        </div>
+
+
+        <main class="main-blog container">
+
+            <!-- ============= BUTTON SHOW SIDEBAR ============= -->
+            <div class="controls-sidebar" id="show-sidebar">
+                <i class="uil uil-bars"></i>
+                <span>Show SideBar</span>
+            </div>
+
+            <!-- =========== SIDEBAR BLOG =========== -->
+            <aside class="blog_aside" id="sidebar">
+
+                <!-- ========== BUTTON CLOSE SIDEBAR ===========  -->
+                <div class="close-sidebar" id="close-sidebar">
+                    <i class="uil uil-times"></i>
+                </div>
+
+                <div class="search-wrap">
+                    <input type="search" name="" id="">
+                    <i class="uil uil-search"></i>
+                </div>
+
+                <div class="categories-wrap">
+                    <h3>Categories</h3>
+
+                    <ul class="category-list">
+                        <li>
+                            <a href="#">Device</a>
+                        </li>
+                        <li>
+                            <a href="#">Markup</a>
+                        </li>
+                        <li>
+                            <a href="#">Media</a>
+                        </li>
+                        <li>
+                            <a href="#">Post Formats</a>
+                        </li>
+                        <li>
+                            <a href="#">Uncategorized</a>
+                        </li>
+                        <li>
+                            <a href="#">Wirless</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=" recent-comment">
+                    <h3>Recent Comments</h3>
+                    <div class="comments">
+                        <div class="comment">
+                            <div class="user-avt">
+                                <img src="/assets/image/blog-user-1-150x150.png" alt="">
+                            </div>
+                            <div class="content">
+                                <p class="user-name">Admin on</p>
+                                <p class="text">Best Things About Search Categories categories </p>
+                            </div>
+                        </div>
+
+                        <div class="comment">
+                            <div class="user-avt">
+                                <img src="/assets/image/blog-user-1-150x150.png" alt="">
+                            </div>
+                            <div class="content">
+                                <p class="user-name">Admin on</p>
+                                <p class="text">Best Things About Search Categories im am hoan </p>
+                            </div>
+                        </div>
+
+                        <div class="comment">
+                            <div class="user-avt">
+                                <img src="/assets/image/blog-user-1-150x150.png" alt="">
+                            </div>
+                            <div class="content">
+                                <p class="user-name">Admin on</p>
+                                <p class="text">Best Things About Search Categories</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recent-posts">
+                    <h3>Recent Posts</h3>
+
+                    <div class="posts">
+                        <div class="post">
+                            <div class="post-img">
+                                <img src="./assets/image/blog-post-150x150.jpg" alt="">
+                            </div>
+                            <div class="post-content">
+                                <p class="post-title">Best Things About Search Categories</p>
+                                <p class="post-name-user black">By admin</p>
+                                <p class="post-time black">July 2,2022</p>
+                            </div>
+                        </div>
+
+                        <div class="post">
+                            <div class="post-img">
+                                <img src="./assets/image/blog-post-150x150-2.jpg" alt="">
+                            </div>
+                            <div class="post-content">
+                                <p class="post-title">Best Things About Search Categories</p>
+                                <p class="post-name-user black ">By admin</p>
+                                <p class="post-time black">July 2,2022</p>
+                            </div>
+                        </div>
+
+                        <div class="post">
+                            <div class="post-img">
+                                <img src="./assets/image/blog-post-150x150-3.jpg" alt="">
+                            </div>
+                            <div class="post-content">
+                                <p class="post-title">Best Things About Search Categories</p>
+                                <p class="post-name-user black">By admin</p>
+                                <p class="post-time black">July 2,2022</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="categories-wrap">
+                    <h3>Archives</h3>
+
+                    <ul class="category-list">
+                        <li>
+                            <a href="#">July 2022</a>
+                        </li>
+                        <li>
+                            <a href="#">June 2022</a>
+                        </li>
+                        <li>
+                            <a href="#">May 2022</a>
+                        </li>
+                        <li>
+                            <a href="#">March 2022</a>
+                        </li>
+                        <li>
+                            <a href="#">February 2022</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </aside>
+            
+
+            <!-- =============== BLOG CONTENT  =============== -->
+            <section class="section blog">
+                <div class="blog_container">
+                        <div class="card-item-section2">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./assets/image/blog1.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="text-content">
+                                <h3>Best Things About Search Engine Optimization</h3>
+                                <h4 class="green time">
+                                    <i class="uil uil-clock-eight"></i>
+                                    <p>July 02,2022</p>
+                                </h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error repudiandae blanditiis odit dolores asperiores vero alias itaque voluptatibus debitis?</p>
+                            </div>
+                        </div>
+
+                        <div class="card-item-section2">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./assets/image/blog2.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="text-content">
+                                <h3>Career Paths to Explore in the Next Decade</h3>
+                                <h4 class="green time">
+                                    <i class="uil uil-clock-eight"></i>
+                                    <p>June 01,2022</p>
+                                </h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error repudiandae blanditiis odit dolores asperiores vero alias itaque voluptatibus debitis?</p>
+                            </div>
+                        </div>
+
+                        <div class="card-item-section2">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./assets/image/blog3.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="text-content">
+                                <h3>Best Tracker And Search Engine Optimization one</h3>
+                                <h4 class="green time">
+                                    <i class="uil uil-clock-eight"></i>
+                                    <p>May 05,2022</p>
+                                </h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error repudiandae blanditiis odit dolores asperiores vero alias itaque voluptatibus debitis?</p>
+                            </div>
+                        </div>
+
+                        <div class="card-item-section2">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./assets/image/blog4.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="text-content">
+                                <h3>Standard the Chunk of Ipsum communication</h3>
+                                <h4 class="green time">
+                                    <i class="uil uil-clock-eight"></i>
+                                    <p>March 03,2022</p>
+                                </h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error repudiandae blanditiis odit dolores asperiores vero alias itaque voluptatibus debitis?</p>
+                            </div>
+                        </div>
+
+                        <div class="card-item-section2">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./assets/image/blog5.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="text-content">
+                                <h3>Standard the Chunk of Ispum communication</h3>
+                                <h4 class="green time">
+                                    <i class="uil uil-clock-eight"></i>
+                                    <p>July 03,2022</p>
+                                </h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error repudiandae blanditiis odit dolores asperiores vero alias itaque voluptatibus debitis?</p>
+                            </div>
+                        </div>
+
+                        <div class="card-item-section2">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./assets/image/blog6.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="text-content">
+                                <h3>Earphones Under Your Budget critical thinking</h3>
+                                <h4 class="green time">
+                                    <i class="uil uil-clock-eight"></i>
+                                    <p>February 05,2022</p>
+                                </h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error repudiandae blanditiis odit dolores asperiores vero alias itaque voluptatibus debitis?</p>
+                            </div>
+                        </div>
+
+                </div>
+            </section>
+            
+            
+        </main>
+
+
+        <footer class="footer-wrap">
+            <div class="shape shape3">
+                <img src="./assets/image/shape.png" alt="">
+            </div>
+            <div class="shape shape4">
+                <img src="./assets/image/shape.png" alt="">
+            </div>
+
+            <div class="container footer_container">
+                <div class="footer_top">
+                    <div class="footer_logo">
+                        <img src="./assets/image/Logo.svg" alt="">
+                    </div>
+
+                    <div class="footer_newsletter">
+                        <h3>Newsletter SignUp!</h3>
+                        <form action="#" class="form">
+                            <input type="email" name="" id="" required>
+                            <input type="submit" value="Subscribe" class="button button-xl">
+                        </form>
+                    </div>                
+                </div>
+
+                <div class="footer_bottom">
+                    <div class="footer_item footer_item1">
+                        <h3>About Us</h3>
+                        <p>Contrary to popular belief, Lorem
+                            Ipsum is not simply random text. It has roots in a piece of classical
+                            Latin literature from 45 BC.</p>
+                        
+                        <ul class="footer_socials">
+                            <li>
+                                <a href="https://www.facebook.com/"><i class="uil uil-facebook-f"></i></a>
+                            </li> 
+                            <li>
+                                <a href="https://twitter.com/home?lang=vi"><i class="uil uil-twitter"></i></a>
+                            </li> 
+                            <li>
+                            <a href="https://www.instagram.com/"><i class="uil uil-instagram"></i></a>
+                            </li> 
+                            <li>
+                                <a href="https://www.linkedin.com/"><i class="uil uil-linkedin-alt"></i></a>
+                            </li> 
+                        </ul>
+                    </div>
+
+                    <div class="footer_item footer_item2">
+                        <h3>Information</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Search Optimization</a>
+                            </li>
+                            <li>
+                                <a href="#">Click Advertising</a>
+                            </li>
+                            <li>
+                                <a href="#">Link Building</a>
+                            </li>
+                            <li>
+                                <a href="#">On-Site SEO</a>
+                            </li>
+                            <li>
+                            <li>
+                                <a href="#">Detailed Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer_item footer_item2">
+                        <h3>Services</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Social Marketing</a>
+                            </li>
+                            <li>
+                                <a href="#">SEO Optimization</a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">Content Marketing</a>
+                            </li>
+                            <li>
+                                <a href="#">Social Marketing</a>
+                            </li>
+                            <li>
+                                <a href="#">Web Analytics</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer_item footer_item4">
+                        <h3>Office Address</h3>
+                        <ul>
+                            <li>
+                                <i class="uil uil-map-marker"></i>
+                                <p>09 Street, Modern Hall, Saint</p>
+                            </li>
+                            <li>
+                                <i class="uil uil-phone-alt"></i>
+                                <p>01 952 952 9000</p>
+                            </li>
+                            <li>
+                                <i class="uil uil-envelope-alt"></i>
+                                <p>info@gmail.com</p>
+
+                            </li>
+                            <li>
+                                <i class="uil uil-missed-call"></i>
+                                <p>01 952 952 9000</p>
+                            </li>
+                           
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="copy_right">
+                    <p>© 2022 All Rights Reserved. Developed By TemplateMela</p>
+                </div>
+            </div>
+        </footer>
+        <!-- ============== END OF FOOTER ============== -->
+
+        <!--========================== SCROLL UP ==========================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up"></i>
+        </a>
+
+
+        <div class="modal-search-container" id="modal-search">
+            <div class="search-overlay" id="overlay-modal-search">
+                <div class="close-modal" id="close-modal-search">
+                    <i class="uil uil-times"></i>
+                </div>
+
+                <div class="modal-search">
+                    <input type="search" placeholder="Search">
+                    <span class="btn-search-icon">
+                        <i class="uil uil-search"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <!-- ========================== SWIPER JS ==========================-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    
+    <!-- ========================== MAIN JS ==========================-->
+    <script src="./assets/js/blog.js"></script>
+   
+    
+</body>
+</html>
