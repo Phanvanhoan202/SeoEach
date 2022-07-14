@@ -122,3 +122,6 @@ btnOpenMenu.addEventListener('click', ()=>{
 btnCloseMenu.addEventListener('click', ()=>{
   menuBar.style.transform = "translateX(100%)";
 })
+
+
+
